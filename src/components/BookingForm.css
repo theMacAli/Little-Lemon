@@ -1,0 +1,7 @@
+.disabled-prop:disabled,
+.disabled-prop[disabled] {
+  background-color: #EDEFEE;
+  border-color: #EDEFEE;
+  color: #ADAFAE;
+  cursor: not-allowed;
+}

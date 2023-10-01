@@ -1,8 +1,25 @@
-
-.nav-ul{
-    display: inline;
+.nav-bar {
 }
-.nav-ul li{
-    display: inline;
-    padding: 0 0.5rem;
+.nav-ul {
+  display: inline;
+}
+.nav-ul li {
+  display: inline;
+  padding: 0 0.5rem;
+}
+
+.nav-item a {
+    display: flex;
+    align-items: center;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1.5rem;
+    text-transform: uppercase;
+    transition: background-color 0.5s;
+  }
+
+.nav-item a:hover,
+.nav-item a:focus {
+  background-color: #f4ce14;
 }

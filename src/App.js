@@ -5,11 +5,13 @@ import Main from "./components/Main";
 import Footer from "./components/Footer";
 
 function App() {
-  return <Fragment className="App">
-    <Header />
-    <Main />
-    <Footer />
-  </Fragment>;
+  return (
+    <Fragment>
+      <Header />
+      <Main />
+      <Footer />
+    </Fragment>
+  );
 }
 
 export default App;
